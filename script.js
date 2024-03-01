@@ -1,0 +1,114 @@
+let b = [
+    "o", "o", "o",
+    "o", "o", "o", 
+    "o", "o", "o", 
+    "o", "o", "o", 
+  ];
+  R1.onclick = function() {
+    R1.textContent = "X";
+    b[0] = "X";
+    console.log("**** Click R1 ****");
+    console.log(b);
+  }
+  R1.ondblclick = function() {
+    R1.textContent = "O";
+    b[0] = "O"
+    console.log("**** DblClick R1 ****");
+    console.log(b);
+  }
+  R2.onclick = function() {
+    R2.textContent = "X";
+    b[0] = "X";
+    console.log("**** Click R1 ****");
+    console.log(b);
+  O
+  R2.ondblclick = function() {
+    R2.textContent = "O";
+    b[0] = "O";
+    console.log("**** DblClick R1 ****");
+    console.log(b);
+  3
+  R3.onclick = function() {
+    R3.textContent = "X";
+    b[0] = "X";
+    console.log("**** Click R1 ****");
+    console.log(b);
+  }
+  R3.ondblclick = function() {
+    R3.textContent = "O";
+    b[0] = "O";
+    console.log("**** DblClick R1 ****");
+    console.log(b);
+  }
+  R4.onclick = function() {
+    R4.textContent = "X";
+    b[0] = "X";
+    console.log("**** Click R1 ****");
+    console.log(b);
+  }
+  R4.ondblclick = function() {
+    R4.textContent = "O";
+    b[0] = "O";
+    console.log("**** DblClick R1 ****");
+    console.log(b);
+  }
+  R5.onclick = function() {
+    R5.textContent = "X";
+    b[0] = "X";
+    console.log("**** Click R1 ****");
+    console.log(b);
+  }
+  R5.ondblclick = function() {
+    R5.textContent = "O";
+    b[0] = "O";
+    console.log("**** DblClick R1 ****");
+    console.log(b);
+  }
+  R7.onclick = function() 
+    R7.textContent = "X";
+    b[0] = "X";
+    console.log("**** Click R1 ****");
+    console.log(b);
+  }
+  R7.ondblclick = function() {
+    R7.textContent = "O";
+    b[0] = "O";
+    console.log("**** DblClick R1 ****");
+    console.log(b);
+  }
+  R7.onclick = function() {
+    R7.textContent = "X";
+    b[0] = "X";
+    console.log("**** Click R1 ****");
+    console.log(b);
+  }
+  R7.ondblclick = function() {
+    R7.textContent = "O";
+    b[0] = "O";
+    console.log("**** DblClick R1 ****");
+    console.log(b);
+  }
+  R8.onclick = function() {
+    R8.textContent = "X";
+    b[0] = "X";
+    console.log("**** Click R1 ****")
+    console.log(b);
+  }
+  R8.ondblclick = function() {
+    R8.textContent = "O";
+    b[0] = "O";
+    console.log("**** DblClick R1 ****");
+    console.log(b);
+  }
+  R9.onclick = function() {
+    R9.textContent = "X";
+    b[0] = "X";
+    console.log("**** Click R1 ****");
+    console.log(b);
+  }
+  R9.ondblclick = function() {
+    R9.textContent = "O";
+    b[0] = "O";
+    console.log("**** DblClick R1 ****");
+    console.log(b);
+  }
