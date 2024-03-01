@@ -1,12 +1,13 @@
-let b = [
-    "-", "-", "-",
-    "-", "-", "-", 
-    "-", "-", "-",  
-  ];
-  console.log("**** Start****");
-  console.log(b);
 
-  R1.onclick = function() {
+let b = [
+  "o", "o", "o",
+  "o", "o", "o",
+  "o", "o", "o"
+]
+console.log(b);
+console.log("**** Start ****");
+
+R1.onclick = function() {
     R1.textContent = "X";
     b[0] = "X";
     console.log("**** Click R1 ****");
@@ -14,7 +15,7 @@ let b = [
   }
   R1.ondblclick = function() {
     R1.textContent = "O";
-    b[0] = "O"
+    b[0] = "O";
     console.log("**** DblClick R1 ****");
     console.log(b);
   }
@@ -93,7 +94,7 @@ let b = [
   R8.onclick = function() {
     R8.textContent = "X";
     b[7] = "X";
-    console.log("**** Click R8 ****")
+    console.log("**** Click R8 ****");
     console.log(b);
   }
   R8.ondblclick = function() {
@@ -113,4 +114,4 @@ let b = [
     b[8] = "O";
     console.log("**** DblClick R9 ****");
     console.log(b);
-  }
+  };
