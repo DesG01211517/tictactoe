@@ -9,24 +9,28 @@
 <body>
     <div class="container text-center" id="Tic">
         <h2>Game</h2>
+        <p class="text-canter bold">Welcome to Tic Tac Toe, where three spaces in a row wins! Think strategecally and remember to play defense! GOOD LUCK!</p>
+        <p>DIRECTIONS:</p>
+        <p class="text-canter bold">The objective of Tic Tac Toe is to get three of your symbols (traditionally "X" or "O") in a row, either horizontally, vertically, or diagonally, on the 3x3 grid.</p>
         <div id="Row1" class="row">
           <div id="R1" class="col">1</div>
-          <div id="R2" class="col">2</div>
+          <div id="R2" class="border border-top-0 col">2</div>
           <div id="R3" class="col">3</div>
         </div>
         <div id="Row2" class="row">
-          <div id="R4" class="col">4</div>
+          <div id="R4" class="border border-start-0 col">4</div>
           <div id="R5" class="col">5</div>
-          <div id="R6" class="col">6</div>
+          <div id="R6" class="border border-end-0 col">6</div>
         </div>
         <div id="Row3" class="row">
           <div id="R7" class="col">7</div>
-          <div id="R8" class="col">8</div>
+          <div id="R8" class="border border-bottom-0 col">8</div>
           <div id="R9" class="col">9</div>
         </div>
       </div>
       <div class="d-grid gap-2 col-6 mx-auto">
-        <button class="btn btn-primary" type="button">Button</button>
+        <button id="checkWinner" class="btn btn-primary" type="button">Check Winner</button>
+        <button id="resetButton" class="btn btn-primary" type="button">Reset</button>
       </div>
     <script src="script.js"></script>
 </body>

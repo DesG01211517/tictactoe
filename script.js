@@ -115,3 +115,37 @@ R1.onclick = function() {
     console.log("**** DblClick R9 ****");
     console.log(b);
   };
+ 
+ 
+  checkWinner.onclick = function() {
+    if (b[0] === "X" && b[1] === "X" && b[2] === "X")
+      
+    alert("you win");
+
+
+  }
+
+
+
+  resetButton.onclick = function() {
+    R1.textContent = "1";
+    b[0] = "1";
+    R2.textContent = "2";
+    b[1] = "2";
+    R3.textContent = "3";
+    b[2] = "3";
+    R4.textContent = "4"; 
+    b[3] = "4";
+    R5.textContent = "5";
+    b[4] = "5";
+    R6.textContent = "6";
+    b[5] = "6";
+    R7.textContent = "7";
+    b[6] = "7";
+    R8.textContent = "8";
+    b[7] = "8";
+    R9.textContent = "9";
+    b[8] = "9";
+  }
+
+  
