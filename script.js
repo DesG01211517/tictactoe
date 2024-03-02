@@ -118,34 +118,98 @@ R1.onclick = function() {
  
  
   checkWinner.onclick = function() {
-    if (b[0] === "X" && b[1] === "X" && b[2] === "X")
-      
-    alert("you win");
-
-
+  
+    if (b[0] === "X" && b[1] === "X" && b[2] === "X"){
+      alert("you win");
+    } 
+    if (b[0] === "O" && b[1] === "O" && b[2] === "O"){
+      alert("you win");
+    }
+    if (b[3] === "X" && b[4] === "X" && b[5] === "X"){
+      alert("you win");
+    }
+    if (b[3] === "O" && b[4] === "O" && b[5] === "O"){
+      alert("you win");
+    }
+    if (b[6] === "X" && b[7] === "X" && b[8] === "X"){
+      alert("you win");
+    }
+    if (b[6] === "O" && b[7] === "O" && b[8] === "O"){
+      alert("you win");
+    }
+    if (b[0] === "X" && b[4] === "X" && b[8] === "X"){
+      alert("you win");
+    }
+    if (b[0] === "O" && b[4] === "O" && b[8] === "O"){
+      alert("you win");
+    }
+    if (b[2] === "X" && b[4] === "X" && b[6] === "X"){
+      alert("you win");
+    }
+    if (b[2] === "O" && b[4] === "O" && b[6] === "O"){
+      alert("you win");
+    }
+    if (b[0] === "X" && b[3] === "X" && b[6] === "X"){
+      alert("you win");
+    }
+    if (b[0] === "O" && b[3] === "O" && b[6] === "O"){
+      alert("you win");
+    }
+    if (b[1] === "X" && b[4] === "X" && b[7] === "X"){
+      alert("you win");
+    }
+    if (b[1] === "O" && b[4] === "O" && b[7] === "O"){
+      alert("you win");
+    }
+    if (b[2] === "X" && b[4] === "X" && b[8] === "X"){
+      alert("you win");
+    }
+    if (b[2] === "O" && b[4] === "O" && b[8] === "O"){
+      alert("you win");
+    }
+  
   }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+      
+    
+
+
+  
 
 
 
   resetButton.onclick = function() {
-    R1.textContent = "1";
-    b[0] = "1";
-    R2.textContent = "2";
-    b[1] = "2";
-    R3.textContent = "3";
-    b[2] = "3";
-    R4.textContent = "4"; 
-    b[3] = "4";
-    R5.textContent = "5";
-    b[4] = "5";
-    R6.textContent = "6";
-    b[5] = "6";
-    R7.textContent = "7";
-    b[6] = "7";
-    R8.textContent = "8";
-    b[7] = "8";
-    R9.textContent = "9";
-    b[8] = "9";
+    R1.textContent = "OPEN";
+    b[0] = "OPEN";
+    R2.textContent = "OPEN";
+    b[1] = "OPEN";
+    R3.textContent = "OPEN";
+    b[2] = "OPEN";
+    R4.textContent = "OPEN"; 
+    b[3] = "OPEN";
+    R5.textContent = "OPEN";
+    b[4] = "OPEN";
+    R6.textContent = "OPEN";
+    b[5] = "OPEN";
+    R7.textContent = "OPEN";
+    b[6] = "OPEN";
+    R8.textContent = "OPEN";
+    b[7] = "OPEN";
+    R9.textContent = "OPEN";
+    b[8] = "OPEN";
   }
 
   
