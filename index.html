@@ -8,30 +8,44 @@
 </head>
 <body>
     <div class="container text-center" id="Tic">
-        <h2 class="mt-10">Game</h2>
+        <h2 class="mt-20">Game</h2>
         <p class="text-center bold">Welcome to Tic Tac Toe, where three spaces in a row wins! Think strategecally and remember to play defense!</p>
         <p>DIRECTIONS:</p>
-        <p class="text-center bold">The objective of Tic Tac Toe is to get three of your symbols (traditionally "X" or "O") in a row, either horizontally, vertically, or diagonally, on the 3x3 grid. Any space labeled "OPEN" is Available for either player. GOOD LUCK!!!</p>
-        <div id="Row1" class="row row g-0 text-center">
-          <div id="R1" class="col">OPEN</div>
-          <div id="R2" class="border border-top-0 col">OPEN</div>
-          <div id="R3" class="col">OPEN</div>
-        </div>
-        <div id="Row2" class="row row g-0 text-center">
-          <div id="R4" class="border border-start-0 col">OPEN</div>
-          <div id="R5" class="col">OPEN</div>
-          <div id="R6" class="border border-end-0 col">OPEN</div>
-        </div>
-        <div id="Row3" class="row row g-0 text-center">
-          <div id="R7" class="col">OPEN</div>
-          <div id="R8" class="border border-bottom-0 col">OPEN</div>
-          <div id="R9" class="col">OPEN</div>
-        </div>
+        <p class="text-center bold m-25">The objective of Tic Tac Toe is to get three of your symbols (traditionally "X" or "O") in a row, either horizontally, vertically, or diagonally, on the 3x3 grid. Any space labeled "OPEN" is Available for either player. GOOD LUCK!!!</p>
+    </div>
+  
+
+      <div class="container mt-5 text-bg-info p-5">
+      <h1 class="text-center">Tic Tac Toe</h1>
+      <div class="row justify-content-center">
+          <div class="col-4 text-center">
+              <div class="row">
+                  <div class="col" id="R1">open</div>
+                  <div class="col border border-top-0" id="R2">open</div>
+                  <div class="col" id="R3">open</div>
+              </div>
+              <div class="row">
+                  <div class="col border border-start-0" id="R4">open</div>
+                  <div class="col" id="R5">open</div>
+                  <div class="col border border-end-0" id="R6">open</div>
+              </div>
+              <div class="row">
+                  <div class="col" id="R7">open</div>
+                  <div class="col border border-bottom-0" id="R8">open</div>
+                  <div class="col" id="R9">open</div>
+              </div>
+          </div>
       </div>
-      <div class="d-grid gap-2 col-6 mx-auto">
-        <button id="checkWinner" class="btn btn-primary" type="button">Check Winner</button>
-        <button id="resetButton" class="btn btn-primary" type="button">Reset</button>
-      </div>
+    
+    
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-4 text-center mt-3 p-3">
+            <button id="checkWinner" class="btn btn-primary" type="button">Check Winner</button>
+            <button id="resetButton" class="btn btn-primary" type="button">Reset</button>
+          </div>
+        </div>
+      </div> 
     <script src="script.js"></script>
 </body>
 </html>
