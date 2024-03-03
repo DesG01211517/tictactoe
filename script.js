@@ -167,7 +167,6 @@ R1.onclick = function() {
     if (b[2] === "O" && b[4] === "O" && b[8] === "O"){
       alert("O Wins!");
     }
-  
   }
   
   
