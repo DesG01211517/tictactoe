@@ -4,6 +4,12 @@ let b = [
   "o", "o", "o",
   "o", "o", "o"
 ]
+let allElms = [
+  R1,R2,R3,
+  R4,R5,R6,
+  R7,R8,R9
+]
+console.log(allElms);
 console.log(b);
 console.log("**** Start ****");
 
@@ -190,25 +196,38 @@ R1.onclick = function() {
 
 
 
+  //resetButton.onclick = function() {
+  //   R1.textContent = "OPEN";
+  //   b[0] = "OPEN";
+  //   R2.textContent = "OPEN";
+  //   b[1] = "OPEN";
+  //   R3.textContent = "OPEN";
+  //   b[2] = "OPEN";
+  //   R4.textContent = "OPEN"; 
+  //   b[3] = "OPEN";
+  //   R5.textContent = "OPEN";
+  //   b[4] = "OPEN";
+  //   R6.textContent = "OPEN";
+  //   b[5] = "OPEN";
+  //   R7.textContent = "OPEN";
+  //   b[6] = "OPEN";
+  //   R8.textContent = "OPEN";
+  //   b[7] = "OPEN";
+  //   R9.textContent = "OPEN";
+  //   b[8] = "OPEN";
+  // }
   resetButton.onclick = function() {
-    R1.textContent = "OPEN";
-    b[0] = "OPEN";
-    R2.textContent = "OPEN";
-    b[1] = "OPEN";
-    R3.textContent = "OPEN";
-    b[2] = "OPEN";
-    R4.textContent = "OPEN"; 
-    b[3] = "OPEN";
-    R5.textContent = "OPEN";
-    b[4] = "OPEN";
-    R6.textContent = "OPEN";
-    b[5] = "OPEN";
-    R7.textContent = "OPEN";
-    b[6] = "OPEN";
-    R8.textContent = "OPEN";
-    b[7] = "OPEN";
-    R9.textContent = "OPEN";
-    b[8] = "OPEN";
-  }
+    for (let i=0; i<9; i++){
+      
+      //console.log(allElms);
 
-  
+      console.log(allElms[0])
+      
+      
+      
+      
+      //blocks.textContent = "open";
+    }
+//console.log(allElms);
+  }
+//console.log(blocks[i]);
