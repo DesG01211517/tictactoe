@@ -179,6 +179,7 @@ R1.onclick = function() {
   resetButton.onclick = function() {
     for (let i=0; i<9; i++){
       let z = allElms[i];
+      let b = [i];
       z.textContent = "open";
       z.backgroundColor = "none";
     }

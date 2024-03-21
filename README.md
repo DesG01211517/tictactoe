@@ -4,6 +4,8 @@ This website features the game TicTacToe
 
 The directions for the game are on the website! Enjoy
 
+added a for loop to reset the game
+
 ## About
 
 - index.html - the homepage
