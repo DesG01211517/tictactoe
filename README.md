@@ -10,6 +10,7 @@ added a for loop to reset the game
 
 - index.html - the homepage
 - script.js - the JavaScript file
+- added a CSS page that included a new background for the assignment
 
 ## Built With
 
